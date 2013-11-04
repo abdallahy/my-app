@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Right 2</title>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script>
+var arr=[];
+var arr_answer=[1,2,1];
+$(document).ready(function(){
+	
+	for(var i=0;i<arr_answer.length;i++){		
+			arr.push(0);		
+	}
+	
+	$('.q1,.q2,.q3').click(function(){
+		
+		var class_click = $(this).attr( "class" );
+		var id_click = $(this).attr( "id" );
+		
+		$('.'+class_click).css('border','none');
+		$(this).css('border','1px solid #000');		
+		
+		var n = id_click.substr(3,1); 
+		var n_question = id_click.substr(2,1); 
+		arr[n_question-1]=n; 
+		
+	});	
+	
+
+});
+function check(){
+	var flag=true;
+	for(var i=0;i<arr.length;i++){
+		if(arr[i]!=arr_answer[i] || arr[i]==0){
+			flag=false;
+			var pos=i+1;
+			$('.q'+pos).css('border','none');
+		}
+	}
+	if(flag){
+		alert('True');
+	}else{
+		alert('False');
+	}
+	
+}
+</script>
+</head>
+<link rel="stylesheet" type="text/css" href="Css/design.css" />
+
+<body class="design">
+
+<div class="stage0">
+
+
+<div class="stage1">
+<div class="contant">B.</div>
+<div class="content2">Circle.</div>
+
+<div style="clear:both; padding:20px;">
+
+<div class="ww">
+
+<div class="content3">1.</div>
+<div class="content4"><img src="image/01.png" /></div>
+
+<div>
+<ul class="content5">
+<li class="q1" id="ch11">he</li>
+<li class="q1"id="ch12">she</li>
+</ul>
+</div>
+
+</div>
+
+<div class="ww">
+
+<div class="content3">2.</div>
+<div class="content4"><img src="image/02.png" /></div>
+
+<div>
+<ul class="content5">
+<li class="q2" id="ch21">he</li>
+<li class="q2" id="ch22">she</li>
+</ul>
+</div>
+
+</div>
+
+<div class="ww">
+
+<div class="content3">3.</div>
+<div class="content4"><img src="image/03.png" /></div>
+
+<div>
+<ul class="content5">
+<li class="q3" id="ch31">he</li>
+<li class="q3" id="ch32">she</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div style="clear:both;float:right;">
+<input type="button" onclick="check()"  value="check"/>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

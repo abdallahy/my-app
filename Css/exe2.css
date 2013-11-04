@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.design{
+	background:#000;
+	
+	}
+.stage0{
+	background:#00c4e6;
+	width:1000px;
+	height:650px;
+	margin:0 auto;
+	padding-top:50px
+	
+	
+	}
+.stage1{
+	background:#FFF;
+	width:900px;
+	height:600px;
+	margin:0 auto;
+	border:5px solid #9bd7ff;
+	border-radius:10px;
+	
+}
+.contant{
+	background:#9bd7ff;
+	width:43px;
+	height:40px;
+	border:3px solid #4b7ab4;
+	border-radius:10px;
+	margin:20px 10px 20px 20px;
+	font-family:"sassoon Infant Std";
+	font-size:35px;
+	font-weight:bold;
+	text-align:center;
+	float:left
+	}
+.content2{
+	font-family:"sassoon Infant Std";
+	font-size:35px;
+	font-weight:bold;
+	text-align: left;
+	float: left;
+	padding-top:7px;
+	
+	}
+	
+	.content4{
+	background: #FFF;
+	width:200px;
+	height:170px;
+	margin-left:20px;
+	border:4px solid #9bd7ff;
+	border-radius:25px;
+	float: left;
+	text-align:center;
+	padding-top:20px;
+	}
+	.content5{
+	font-family:"sassoon Infant Std";
+	font-size:19px;
+	width:150Px;
+	
+	padding-left:15px;
+	padding-top:40px;	}
+	
+	.q1,.q2,.q3,.q4{
+	width:60px;
+	height:50px;
+	border:4px solid #9bd7ff;
+	border-radius:10px;
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	padding-top:5px;
+	margin-top:10px;
+	}
+	
+	.q1:hover,.q2:hover,.q3:hover,.q4:hover{
+		
+		cursor:pointer;
+		
+		
+	}
+	
+	.ww{
+		float:left;
+		margin-top:10px
+	}
+	
+		
+	
+	

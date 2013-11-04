@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.design{
+	background:#000;
+	
+	}
+.stage0{
+	background:#00c4e6;
+	width:1000px;
+	height:650px;
+	margin:0 auto;
+	padding-top:50px
+	
+	
+	}
+.stage1{
+	background:#FFF;
+	width:900px;
+	height:600px;
+	margin:0 auto;
+	border:5px solid #9bd7ff;
+	border-radius:10px;
+	
+}
+.contant{
+	background:#9bd7ff;
+	width:43px;
+	height:40px;
+	border:3px solid #4b7ab4;
+	border-radius:10px;
+	margin:20px 10px 20px 20px;
+	font-family:"sassoon Infant Std";
+	font-size:35px;
+	font-weight:bold;
+	text-align:center;
+	float:left
+	}
+.content2{
+	font-family:"sassoon Infant Std";
+	font-size:35px;
+	font-weight:bold;
+	text-align: left;
+	float: left;
+	padding-top:25px;
+	
+	}
+	.content3{
+	font-family:"sassoon Infant Std";
+	font-size:30px;
+	clear:both;
+	text-align:center;
+	background: #FFF;
+	width:40px;
+	height:40px;
+	border:4px solid #9bd7ff;
+	border-radius:25px;
+	margin:20px 10px 20px 30px;
+	}
+	.content4{
+	clear:both;
+	padding-left:50px;
+	}
+	.content5{
+	font-family:"sassoon Infant Std";
+	font-size:35px;
+	clear:both;
+	
+	list-style:none;
+	text-align:center;
+	width:150Px;
+	}
+	.content5 li{
+		padding:5px;
+		
+	}
+	.content5 li:hover{
+		color:#F00;
+		cursor:pointer;
+		
+	}
+	.ww{
+		float:left;
+		margin-left:60px
+	}
+	
+		
+	
+	
